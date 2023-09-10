@@ -1,27 +1,27 @@
 import kotlin.math.*
 fun main(args: Array<String>) {
-    //Задача 1
+    //Task1
     val exercises = 13
     var exercisesSolved : Int = 0
     exercisesSolved++
     /*Объявлена константа и переменная, переменную увеличиваем на еденицу(не сказано на сколько)*/
-    //Задача 2
+    //Task2
     val age: Int = 19
     exercisesSolved++
     /*Константа названа age так как отвечает за возраст*/
-    //Задача 3
+    //Task3
     var averageAge: Double = 19.0
     averageAge = (averageAge + 30) / 2
     exercisesSolved++
     /*Объявлена переменная типа Double, названа averageAge(средний возраст)*/
-    //Задача 4
+    //Task4
     val testNumber: Int = 99
     val evenOdd : Int = testNumber % 2
     exercisesSolved++
     /*Созданы константы testNumber и evenOdd типа int, testNumber присвоено какое-то значение, evenOdd присвоен остаток от деления  на 2 testNumber
     *   /*В задаче есть вопрос, что будет с evenOdd, если изменить testNumber, оно так же выведет остаток от деления на 2 этой константы*/
     */
-    //Задача 5
+    //Task5
     var answer: Int = 0
     answer += 1
     answer += 10
@@ -29,14 +29,14 @@ fun main(args: Array<String>) {
     println(answer)
     exercisesSolved++
     /*Созданна переменная типа int, со значением 0. Далее проводятся различного рода манипуляции с этой переменной*/
-    //Задача 6
+    //Task6
     var age2 = 16
     print(age2)
     age2 = 30
     print(age2)
     exercisesSolved++
     /*В задании спрашивалось какое ключевое слово нужно использовать, val или var. В данном случае var, т.к нам нужна переменная, а не константа*/
-    //Задача 7
+    //Task7
     /*
         /*val a: Int = 46
         val b: Int = 10
@@ -46,22 +46,22 @@ fun main(args: Array<String>) {
     */
     //Не знаю как по другому это сделать, ибо не понимаю что конкретно от меня хотят
     exercisesSolved++
-    //Задача 8
+    //Task8
     (5*3) - ((4/2)*2)
     exercisesSolved++
     /*Скобки расставлены так, чтобы не изменить порядок вычислений*/
-    //Задача 9
+    //Task9
     val a : Double = 22.0
     val b : Double = 41.5
     val average : Double = (a + b) / 2
     exercisesSolved++
     /*Созданы 3 константы типа double, a и b присвоенны какие-то числа, average присвоено среднее арефметическое констант a и b*/
-    //Задача 10
+    //Task10
     val fahrenheit : Double = 77.2
     val celcius : Double = (fahrenheit - 32) / 1.8
     exercisesSolved++
     /*Объявлены 2 константы типа double, fahrenheit присвоено какое-то значение, celcius присвоена формула преобразования температуры fahrenheit в температуру цельсия*/
-    //Задача 11
+    //Task11
     val position : Int = 10
     val row : Int = position / 8
     val column : Int = position % 8
@@ -70,12 +70,12 @@ fun main(args: Array<String>) {
     Объявлены 3 константы position, row, column типа int, нужно по значению position определить, строку и столбец на клетки на шахматной доске.
 
     */
-    //Задача 12
+    //Task12
     val degrees : Double = 78.0
     val radians : Double = degrees * PI / 180
     exercisesSolved++
     /*Объявлено 2 константы, degrees и radians типа double, degrees присвоено начальное значение, radians присвоено формула преобразования degrees в радианы*/
-    //Задача 13
+    //Task13
     val x1 : Double = 20.0
     val y1 : Double = 78.0
     val x2 : Double = 300.0
